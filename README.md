@@ -1,5 +1,9 @@
 # MineTrace
 
+![MineTrace overview: 2024 cobalt trade routes](docs/overview.png)
+
+![MineTrace evidence: DR Congo to China route](docs/evidence.png)
+
 Free, self-hosted risk screening for critical-mineral trade routes.
 
 Critical minerals power EVs, batteries and electronics, but their supply chains are opaque and often
