@@ -1,0 +1,34 @@
+MineTrace - how to run (Windows)
+================================
+
+You need, once:
+  - Python 3.10 or newer   (python.org - tick "Add Python to PATH")
+  - Node.js LTS            (nodejs.org)
+  - Internet, only for the first setup
+
+Steps:
+  1. Unzip this folder somewhere, for example your Desktop.
+  2. Double-click 1-SETUP.bat      (once, about 10 minutes)
+  3. Double-click 2-START.bat      (every time you want to use MineTrace)
+     Your browser opens at http://localhost:5173
+
+If Windows shows "Windows protected your PC", click "More info" then "Run anyway".
+These are plain text scripts; right-click > Edit to read exactly what they do.
+
+What to try in the app:
+  - Pick a mineral at the top right (Cobalt, Lithium, Nickel, Graphite) and a year.
+  - Red and amber arcs are flagged routes.
+  - Click a route in "Routes to look at first" on the right. The globe turns to it.
+  - Read the flags and their evidence on the right.
+  - Click "Evidence report" for a printable report.
+
+Optional - AI explanations with Ollama:
+  Install Ollama from ollama.com, then in a terminal run:   ollama pull llama3.2
+  Without Ollama, a template writes the explanation instead.
+
+Other scripts:
+  3-UPDATE-DATA.bat   fetch missing data again (for example if setup was interrupted)
+  4-RUN-TESTS.bat     run the 20 automated tests
+
+To stop MineTrace, close the two black windows.
+More details: README.md. Presentation script: DEMO.md.

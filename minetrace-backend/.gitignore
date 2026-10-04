@@ -1,0 +1,6 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+data/opensanctions_targets.simple.csv
+*.db-journal

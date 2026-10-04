@@ -1,0 +1,11 @@
+﻿venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+*.db
+*.db-journal
+minetrace-backend/data/opensanctions_targets.simple.csv
+.env
+*.log
+desktop.ini
